@@ -1,0 +1,51 @@
+[{
+        "id": 1,
+        "title": "The C Programming Language",
+        "author": "Brian W Kernighan & Dennis M. Ritchie",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:1978-02-22T20:30}",
+        "fee": 2,
+        "lastEdited": "1978-02-22T20:30:00.00Z"
+    }, {
+        "id": 2,
+        "title": "Design Patterns",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson & John Vlissides",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:2019-03-03T07:11}",
+        "fee": 5.5,
+        "lastEdited": "2019-03-03T07:11:00.00Z"
+    }, {
+        "id": 3,
+        "title": "5 Ingredient Keto Recipes",
+        "author": "Sam Dillard",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:2021-10-15T09:00}",
+        "fee": 3,
+        "lastEdited": "2021-10-15T09:00:00.00Z"
+    }, {
+        "id": 4,
+        "title": "Hogwarts: A History",
+        "author": "Nicolas Flammel",
+        "status": "{id:0,displayText:CheckedOut,timeCheckedOut:1995-08-15T03:12,dueDate:1995-10-15T00:00}",
+        "fee": 3,
+        "lastEdited": "1995-10-15T00:00:00.00Z"
+    }, {
+        "id": 5,
+        "title": "How I ruined Halloween",
+        "author": "Action Johnny",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:2021-08-15T02:34}",
+        "fee": 3,
+        "lastEdited": "2021-08-15T02:34:00.00Z"
+    }, {
+        "id": 6,
+        "title": "A New Start",
+        "author": "Tobias Fűnke",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:2020-04-15T02:34}",
+        "fee": 3,
+        "lastEdited": "2020-04-15T02:34:00.00Z"
+    }, {
+        "id": 7,
+        "title": "Hello World!",
+        "author": "TheNewBoston",
+        "status": "{id:1,displayText:OnShelf,timeCheckedIn:2020-04-15T02:34}",
+        "fee": 12,
+        "lastEdited": "2020-04-15T02:34:00.00Z"
+    }
+]
