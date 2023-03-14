@@ -11,14 +11,14 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 
 @Composable
-fun DetailScreen(navController: NavController, id: String, title: String, author: String, status: String, fee: String, lastEdited: String) {
+fun DetailScreen(onBackClick: () -> Unit, id: String, title: String, author: String, status: String, fee: String, lastEdited: String) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
     ) {
         Button(
             onClick = {
-                navController.navigateUp()
+                onBackClick()
             },
             modifier = Modifier.padding(16.dp),
         ) {
