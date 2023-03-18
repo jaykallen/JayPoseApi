@@ -9,6 +9,6 @@ import retrofit2.http.Path
 // https://gist.githubusercontent.com/jaykallen/8a1f6981d842fda91b2d1a68313b8a5d/raw/12b614184685777c3f3541b2642b2b83cf7a2464/gistfile1.txt
 
 interface ApiService {
-    @GET("jaykallen//{key1}//raw//{key2}//gistfile1.txt")
+    @GET("jaykallen//{key1}//raw//{key2}//books.json")
     fun queryApi(@Path("key1") key1:String, @Path("key2") key2: String): Call<Books>
 }

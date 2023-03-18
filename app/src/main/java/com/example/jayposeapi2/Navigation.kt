@@ -12,6 +12,13 @@ import androidx.navigation.navigation
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
+
+    fun backUp(): () -> Unit {
+        return {
+            navController.navigateUp()
+        }
+    }
+
     NavHost(
         navController = navController,
         startDestination = Screen.MainScreen.route
@@ -30,7 +37,7 @@ fun Navigation() {
             )
         ) { entry ->
             DetailScreen(
-                onBackClick = { navController.navigateUp() },
+                onBackClick = backUp(),
                 id = entry.arguments?.getString("id") ?:"",
                 title = entry.arguments?.getString("title") ?:"",
                 author = entry.arguments?.getString("author") ?:"",
